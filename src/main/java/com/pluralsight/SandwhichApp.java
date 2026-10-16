@@ -32,6 +32,7 @@ public class SandwhichApp {
         //start calculating the total
         double total = 0;
 
+        //depending on sammy size update the total
         if(sammySize == 1){
             //update the total to be 5.45
 
@@ -44,6 +45,7 @@ public class SandwhichApp {
             System.exit(0);
         }
 
+        //determine discount based on age (if there is a discount) and update the total
         if(age <= 17){
 
             //take 10% off the total
