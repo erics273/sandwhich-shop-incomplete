@@ -29,7 +29,33 @@ public class SandwhichApp {
 
         int age = myScan.nextInt();
 
+        //start calculating the total
+        double total = 0;
 
+        if(sammySize == 1){
+            //update the total to be 5.45
+
+        }else if(sammySize == 2){
+            //update the total to 8.95
+
+        }else{
+            //they gave us a bad choice
+            System.out.println("I cant understand you selection");
+            System.exit(0);
+        }
+
+        if(age <= 17){
+
+            //take 10% off the total
+
+        }else if( age >= 65){
+
+            //take 20% off the total
+
+        }
+
+        //display the total
+        System.out.printf("Sammy total: $%.2f", total);
 
     }
 
